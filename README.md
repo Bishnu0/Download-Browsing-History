@@ -4,6 +4,8 @@ A Chrome extension to export your history as csv.
 
 You can load the packet in any browser 
 Once the extension is added, you can select the date and time how long back you want to go and download the browser till that date
+![image](https://user-images.githubusercontent.com/32207327/204031563-b4289f97-f528-4461-adec-24abfe7a1c0e.png)
+
 You can see the UI below, which has the date to select, and two button 
 ![image](https://user-images.githubusercontent.com/32207327/204031458-a20d6374-b8d6-4b86-9cd0-cc7b105e6d89.png)
 Below is the CSV File
