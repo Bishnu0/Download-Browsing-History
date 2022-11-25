@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Export History</title>
+    <style>
+      body {
+        min-width: 200px;
+      }
+
+      #data{
+        display: none;
+      }
+
+      h3{
+        /*margin-bottom: 0px;*/
+        font-weight: lighter;
+        font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        line-height: 5px;
+        text-decoration: underline;
+      }
+      h5{
+        /*margin-bottom: 0px;*/
+        font-weight: bolder;
+        font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+        line-height: 0px;
+      }
+      hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="buttons.css">
+    <script src="konami.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <span font-weight="bold">Back to date: <input type="datetime-local" name="backtohistory" id="backtohistory"></span> 
+    <h3 id="title">Export History:</h3>
+    <h5>Formats:</h5>
+    <div id="content">
+     <a href="#" id="json" class="button button-rounded">JSON</a>  
+      <a href="#" id="csv" class="button button-rounded">CSV</a>
+
+      <br />
+<!--      <br />
+      
+      <button id="btn-download">
+        Download Chart
+      </button>-->
+      <div id="data"></div>
+    
+    </div>
+  </body>
+</html>

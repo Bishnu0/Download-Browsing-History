@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome History Exporter",
+  "description": "Download Chrome history in csv and json format.",
+  "version": "1.0",
+
+  "permissions": [
+    "history",
+    "identity",
+    "downloads"
+  ],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
